@@ -1,0 +1,129 @@
+.col12 {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    
+}
+.col1 {
+    display: flex;
+    flex-direction: column;  
+    width: 14vh;  
+    margin-right: 3vh;
+ }
+
+.col2 {
+    display: flex;
+    width: 83vh;
+    flex-direction: column;  
+}
+
+.palevioletred {
+    width: 12vh;
+    height: 10vh;
+    background-color: palevioletred;
+    align-self: flex-end;
+}
+
+#steelblue {
+    width: 12vh;
+    height: 3vh;
+    background-color: steelblue;
+    align-self: flex-end;
+}
+
+#powderblue {
+    width: 12vh;
+    height: 2vh;
+    background-color: powderblue;
+    align-self: flex-end;
+}
+
+#darkgrey {
+    width: 11vh;
+    height: 20vh;
+    background-color: darkgrey;
+    align-self: flex-end;
+}
+
+.lawngreen {
+    display: flex;
+    background-color:lightgreen;
+    height: 48vh;
+    width: 80vh;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+
+.blackwhite {
+    
+    
+}
+
+.darkgreenline{
+    display: flex;
+    flex-direction: row;
+
+}
+#darkgreen {
+    height: 7vh;
+    width: 19.61vh;
+    background-color: darkgreen; 
+}
+
+.cyan-lightpink {
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 5vh;
+    flex-direction: row;
+}
+
+.cyan {
+    height: 5vh;
+    background-color: cyan;
+    width: 47vh;
+}
+
+.lightpink {
+    height: 5vh;
+    background-color: lightpink; 
+    width: 36vh;
+}
+
+.oliveline {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+}
+
+#olive {
+    width: 18.5vh;
+    height: 13vh;
+    background-color: olive; 
+}
+
+.salmonline {
+    display: flex;
+    flex-direction: row;
+}
+
+#salmon {
+    width: 18.5vh;
+    height: 20vh;
+    background-color: salmon; 
+}
+
+.darkgray {
+    margin-top: 3vh;
+    margin-left: 9vh;
+    height: 10vh;
+    width: 94vh;
+    background-color: darkgray;
+}
+
+
+
+
+
