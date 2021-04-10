@@ -1,0 +1,6 @@
+let name = prompt("Enter Your Name")
+let age = prompt("Enter Your Age")
+let job = prompt("Enter Your Job")
+console.log("Your Name Is " + name)
+console.log("Your Age Is: " + age)
+console.log("Your Job Is" + job)

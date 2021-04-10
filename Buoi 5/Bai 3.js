@@ -1,0 +1,15 @@
+let gt1 = parseInt(prompt("Nhập giá trị 1"))
+let gt2 = parseInt(prompt("Nhập giá trị 2"))
+let gt3 = parseInt(prompt("Nhập giá trị 3"))
+let gt4 = parseInt(prompt("Nhập giá trị 4"))
+let gt5 = parseInt(prompt("Nhập giá trị 5"))
+
+let Tổng = (gt1 + gt2 + gt3 + gt4 + gt5)
+let Tích = (gt1 * gt2 * gt3 * gt4 * gt5)
+let max = Math.max(gt1, gt2, gt3, gt4, gt5)
+let min = Math.min(gt1, gt2, gt3, gt4, gt5)
+
+console.log("Tổng 5 số là: " + Tổng)
+console.log("Tích 5 số là: " + Tích)
+console.log("Giá trị lớn nhất trong 5 số là: " + max)
+console.log("Giá trị bé nhất trong 5 số là: " + min)
