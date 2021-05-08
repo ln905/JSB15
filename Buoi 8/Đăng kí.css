@@ -1,0 +1,38 @@
+body {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+    font-size: 4vh;
+}
+label {
+    font-size: 4vh;
+}
+#imgbutton {
+    display: block;
+    height: 20vh;
+    width: 20vh;
+    background-image: url("https://png.pngtree.com/png-vector/20190221/ourlarge/pngtree-male-avatar-vector-icon-png-image_691595.jpg");
+    background-size: cover;
+    border-radius: 1vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: navy;
+    font-size: 7vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#signup {
+    font-weight: bold;
+    font-size: 4vh;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 2vh;
+    background-color: navy;
+    color: white;
+    border: unset;
+}
