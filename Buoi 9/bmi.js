@@ -24,19 +24,19 @@ else {
 if (h <= 0 || m <= 0) {
     document.getElementById('statshow').innerHTML= "Can't calcualte BMI";
 }
-else if (0< sobmi < 18.5) {
+else if (0< sobmi && sobmi < 18.5) {
     document.getElementById('statshow').innerHTML= "Underweight";
 }
-else if (18.5 <= sobmi < 25){
+else if (18.5 <= sobmi && sobmi < 25){
     document.getElementById('statshow').innerHTML= "Normal Weight";
 }
-else if (25 <= sobmi <30) {
+else if (25 <= sobmi && sobmi <30) {
     document.getElementById('statshow').innerHTML= "Pre-Obesity";
 }
-else if (30 <= sobmi <35) {
+else if (30 <= sobmi && sobmi <35) {
     document.getElementById('statshow').innerHTML= "Obesity Class I";
 }
-else if (35 <= sobmi <40) {
+else if (35 <= sobmi && sobmi <40) {
     document.getElementById('statshow').innerHTML= "Obesity Class II";
 }
 else if (40 <= sobmi) {
