@@ -1,0 +1,32 @@
+p {
+    font-size: 20px;
+}
+
+#in4 {
+    width: 100vh;
+}
+
+button {
+    font-size: 2vh;
+    border-radius: 1vh;
+    background-color: blue;
+    color: white;
+    border: unset;
+    height: 5vh;
+    width: 12vh;
+}
+
+#gender {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#phone {
+    display: inline;
+    height: 40%;
+    width: 40%;
+}
+#checkbox {
+    display: inline;
+    width: 50%;
+}
