@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bmr.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính chỉ số bmr</title>
+</head>
+<body>
+    <div id="in4">
+    <h1>BMR CALCULATOR</h1>
+    <p>BMR là từ viết tắt của <b>Basal Metabolic Rate</b> có nghĩa là tỉ lệ trao đổi chất cơ bản. Đây là lượng calo mà cơ thể cần để duy trì các chức năng sống của cơ thể như thở, tuần hoàn máu và nhiệt độ cơ thể….
+    </p>
+    </div>
+    <div id="gender">
+    <div id="checkbox">
+    <input type="checkbox" name="nam" id="nam" value="1"><label>Male</label>
+    <input type="checkbox" name="nu" id="nu" value="2"><label>Female</label><br>
+    </div>
+    <img id="phone" src="https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/top-diet-and-nutrition-apps-shutterstock-323344118.jpg">
+    </div>    
+        <label for="age"><b>Age</b></label>
+        <input type="number" placeholder="Enter Your Age" name="age"  id="age">
+        <br><br>
+        <label for="height"><b>Height</b></label>
+        <input type="number" placeholder="Enter Your Height (cm)" name="height"  id="height">
+        <br><br>
+        <label for="number"><b>Weight</b></label>
+        <input type="number" placeholder="Enter Your Weight (kg)" name="weight" id="weight">
+        <h2 id="bmrshow"></h2>
+<button onclick="gender()">Calculate</button>
+    <script src="bmr.js"></script>
+</body>
+</html>
